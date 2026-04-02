@@ -25,7 +25,8 @@ call_user_func(
             ],
             [
                 ConsentController::class => '',
-            ]
+            ],
+            ExtensionUtility::PLUGIN_TYPE_CONTENT_ELEMENT
         );
 
         ExtensionUtility::configurePlugin(
@@ -36,7 +37,8 @@ call_user_func(
             ],
             [
                 ConsentController::class => '',
-            ]
+            ],
+            ExtensionUtility::PLUGIN_TYPE_CONTENT_ELEMENT
         );
 
         /**
